@@ -4,4 +4,5 @@ export enum FilterType {
   DateRange = 'DateRangeFilter',
   NumberRange = 'NumberRangeFilter',
   String = 'StringFilter'
+
 }

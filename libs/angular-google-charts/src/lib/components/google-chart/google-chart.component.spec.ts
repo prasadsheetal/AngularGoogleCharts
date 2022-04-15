@@ -197,6 +197,9 @@ describe('GoogleChartComponent', () => {
       const width = 120;
       component.width = width;
 
+      const groupWidth ='200%';
+      component.groupWidth=groupWidth;
+
       const height = 150;
       component.height = height;
 

@@ -5,6 +5,7 @@ import { ChartErrorEvent, ChartReadyEvent, ChartSelectionChangedEvent } from '..
 
 export type Column = string | google.visualization.ColumnSpec;
 export type Row = (string | number | Date | null)[];
+export type groupWidth =(string| number);
 
 export interface ChartBase {
   /**

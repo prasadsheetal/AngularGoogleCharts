@@ -69,6 +69,9 @@ export class GoogleChartComponent implements ChartBase, OnInit, OnChanges, OnDes
   @Input()
   public title?: string;
 
+  @Input()
+  public groupWidth?: string | number;
+
   /**
    * A convenience property used to set the width of the chart in pixels.
    *
