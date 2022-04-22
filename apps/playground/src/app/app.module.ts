@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { TestComponent } from './test/test.component';
 
+
+
+
 @NgModule({
   declarations: [AppComponent, TestComponent, MainComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GoogleChartsModule.forRoot({ mapsApiKey: 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY' })
+    GoogleChartsModule.forRoot({ mapsApiKey: 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY' }),
+    // NgMarqueeModule
   ],
   bootstrap: [AppComponent]
 })

@@ -126,7 +126,7 @@ export class MainComponent implements OnInit {
     console.error('Error: ' + error.message.toString());
   }
 
-  public onSelect(event: ChartSelectionChangedEvent) {
+  public onSelect(event: ChartSelectionChangedEvent){
     console.log('Selected: ' + event.toString());
   }
 

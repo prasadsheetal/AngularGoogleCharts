@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.marquee{
+    width:80%;
+    background-color: violet;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.marquee div{
+    font-size:3rem;
+    font-family: Verdana;
+    animation:animate 10s linear infinite;
+    padding-left: 100%;
+    display:inline-block;
+}
+@keyframes animate{
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+// .overflow-marquee-container{white-space:nowrap;overflow:hidden}.overflow-marquee{position:relative;left:0;-webkit-transition:opacity .4s ease-out;transition:opacity .4s ease-out}

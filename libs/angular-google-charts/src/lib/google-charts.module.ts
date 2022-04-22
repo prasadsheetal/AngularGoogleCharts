@@ -14,7 +14,7 @@ import { GoogleChartsConfig, GOOGLE_CHARTS_CONFIG } from './types/google-charts-
     ChartWrapperComponent,
     DashboardComponent,
     ControlWrapperComponent,
-    ChartEditorComponent
+    ChartEditorComponent,
   ],
   providers: [ScriptLoaderService],
   exports: [

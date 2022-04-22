@@ -21,3 +21,4 @@ export * from './lib/types/google-charts-config';
 export * from './lib/services/script-loader.service';
 
 export * from './lib/google-charts.module';
+
